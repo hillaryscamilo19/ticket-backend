@@ -14,7 +14,6 @@ mongoose.connect(process.env.MONGO_URI)
 
 app.use('/api/tickets', require('./routes/tickets'));
 app.use('/api/departments', require('./routes/departments'));
-app.use('/api/auth', require('./routes/auth'));
 app.use('/api/messages', require('./routes/message'));
 app.use('/api/categories', require('./routes/category'));
 app.use('/api/attachments', require('./routes/attachment'));
