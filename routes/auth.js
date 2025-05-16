@@ -5,6 +5,6 @@ const router = express.Router();
 
 router.post("/register", registerUser);
 router.post("/login", loginUser);
-router.get("/profile", getProfile); // opcional, si usas auth por token
+router.get("/session", getProfile); // opcional, si usas auth por token
 
 module.exports = router;
